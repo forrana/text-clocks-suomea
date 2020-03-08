@@ -35,6 +35,18 @@
 
 @media all and (orientation: portrait) {
   .clock-body {
+    overflow: hidden;
     width: 90vw;
+    font-size: 15px;
+    grid-template-columns: repeat(2, 15ch);
   }
+
+  .clock-body span:nth-child(3n-1) {
+    text-align: left;
+  }
+
+  .clock-body span:nth-child(3n) {
+    text-align: left;
+  }
+
 }
