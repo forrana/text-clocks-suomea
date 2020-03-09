@@ -8,4 +8,4 @@ navigator.serviceWorker.register('service-worker.js', {
   console.log('The service worker has been registered ', registration);
 });
 
-// navigator.serviceWorker.ready.then(reload);
+navigator.serviceWorker.ready.then(reload);

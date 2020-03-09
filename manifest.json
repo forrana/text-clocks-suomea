@@ -3,19 +3,19 @@
   "name": "Text Clocks",
   "icons": [
     {
-      "src": "/images/icons-192.png",
+      "src": "images/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/icons-512.png",
+      "src": "images/icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "/text-clocks-suomea",
   "background_color": "#FFFFFF",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/text-clocks-suomea",
   "theme_color": "#000000"
 }
