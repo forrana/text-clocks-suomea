@@ -32,7 +32,7 @@ const markCurrentHour = (hour, isLessThenHalf) => {
 
 const markCurrentBinding = (minute, isLessThenHalf) => {
   let currentBoundingElement = "";
-  if(minute <= TIME_DELTA || minute + TIME_DELTA >= 60) return;
+  if(minute <= TIME_DELTA || minute + TIME_DELTA >= 60 || minute == 30) return;
   if (isLessThenHalf) {
     currentBoundingElement = document.querySelector("#boundings-past");
     currentBoundingElement.classList.add("active");

@@ -1,8 +1,8 @@
 .clock-body {
   display: grid;
-  grid-template-columns: repeat(3, minmax(7ch, 1fr));
+  grid-template-columns: repeat(3, minmax(12ch, 1fr));
   margin: auto;
-  width: 50vw;
+  width: auto;
   text-transform: capitalize;
   font-family: monospace;
   color: #d2cece;
@@ -36,9 +36,8 @@
 @media all and (orientation: portrait) {
   .clock-body {
     overflow: hidden;
-    width: 90vw;
-    font-size: 15px;
-    grid-template-columns: repeat(2, 15ch);
+    font-size: 22px;
+    grid-template-columns: repeat(2, minmax(12ch, 1fr));
   }
 
   .clock-body span:nth-child(3n-1) {
